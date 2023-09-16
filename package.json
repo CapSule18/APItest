@@ -1,0 +1,26 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "mocha chai petstore example",
+  "main": "index.js",
+  "scripts": {
+    "selamatdatang": "mocha test/api/selamatdatang.js",
+    "test get": "mocha test/api/getcontoh.js",
+    "test get login": "mocha test/api/getloginuser",
+    "test post register": "mocha test/api/postregisteruser",
+    "test post upload file": "mocha test/api/postuploadfile",
+    "test post": "mocha filename.js",
+    "chaiassert": "mocha test/api/chaiassert.js"
+  },
+  "author": "Albertus",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.19"
+  }
+}
